@@ -1,0 +1,15 @@
+.fondo{
+    background-image: url('https://images4.alphacoders.com/788/788878.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+}

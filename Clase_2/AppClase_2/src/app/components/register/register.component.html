@@ -1,0 +1,21 @@
+<!--
+    <div class="wrapper fadeInDown">
+-->
+<div class="wrapper">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Formulario de registro </h2>
+      <!-- Icon -->  
+      <!-- Login Form -->
+      <form class="form-group p-3">
+        <!--
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        -->    
+        <input type="text" id="login" [(ngModel)]="usuario" class="form-control" name="login" placeholder="Ingrese su correo">      
+        <input type="password" id="password" [(ngModel)]="password" class="form-control" name="login" placeholder="Ingrese su contraseña">
+        <input type="password" id="confirm" [(ngModel)]="confirm" class="form-control" name="login" placeholder="Reingrese su contraseña">
+        <button class="btn btn-primary p-2" (click)="registrar()">REGISTRAR</button>
+      </form>
+    </div>
+  </div>
